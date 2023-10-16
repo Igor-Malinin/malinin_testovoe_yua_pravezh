@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmalinin_testovoe_yua_pravezh"]=self["webpackChunkmalinin_testovoe_yua_pravezh"]||[]).push([[702],{702:function(n,e,r){r.r(e),r.d(e,{default:function(){return v}});var t=r(252);const a={class:"work-in-court"},u=(0,t._)("h2",{class:"visually_hidden"},"Работа в суде",-1),s=(0,t._)("p",null,"Работа в суде",-1),o=[u,s];function i(n,e,r,u,s,i){return(0,t.wg)(),(0,t.iD)("section",a,o)}var c={name:"WorkInCourt"},l=r(744);const _=(0,l.Z)(c,[["render",i]]);var v=_}}]);
+//# sourceMappingURL=702.bc920df0.js.map

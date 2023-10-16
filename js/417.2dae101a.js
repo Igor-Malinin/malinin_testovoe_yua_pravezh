@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmalinin_testovoe_yua_pravezh"]=self["webpackChunkmalinin_testovoe_yua_pravezh"]||[]).push([[417],{417:function(n,e,t){t.r(e),t.d(e,{default:function(){return f}});var a=t(252);const s={class:"debt-info"},u=(0,a._)("h2",{class:"visually_hidden"},"Информация о долге",-1),i=(0,a._)("p",null,"Информация о долге",-1),r=[u,i];function o(n,e,t,u,i,o){return(0,a.wg)(),(0,a.iD)("section",s,r)}var c={name:"DebtInfo"},l=t(744);const _=(0,l.Z)(c,[["render",o]]);var f=_}}]);
+//# sourceMappingURL=417.2dae101a.js.map
