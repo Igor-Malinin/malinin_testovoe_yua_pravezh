@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import DebtorView from '../views/DebtorView.vue'
+import TitleView from "@/views/TitleView.vue";
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: DebtorView
+    component: TitleView
   },
   {
     path: '/debtor-data',

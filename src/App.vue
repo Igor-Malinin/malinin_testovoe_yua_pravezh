@@ -1,4 +1,5 @@
 <template>
+
   <debtor-view />
 </template>
 
