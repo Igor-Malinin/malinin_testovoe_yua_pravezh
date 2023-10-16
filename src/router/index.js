@@ -1,19 +1,41 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import DebtorView from '../views/DebtorView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: DebtorView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/debtor-data',
+    name: 'debtor-data',
+    component: () => import('../components/debtor/DebtorData.vue')
+  },
+  {
+    path: '/debt-info',
+    name: 'debt-info',
+    component: () => import('../components/debtor/DebtInfo.vue')
+  },
+  {
+    path: '/payment-info',
+    name: 'payment-info',
+    component: () => import('../components/debtor/PaymentInfo.vue')
+  },
+  {
+    path: '/promises-info',
+    name: 'promises-info',
+    component: () => import('../components/debtor/PromisesInfo.vue')
+  },
+  {
+    path: '/work-in-court',
+    name: 'work-in-court',
+    component: () => import('../components/debtor/WorkInCourt.vue')
+  },
+  {
+    path: '/current-call',
+    name: 'current-call',
+    component: () => import('../views/CurrentCallView.vue')
   }
 ]
 
